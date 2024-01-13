@@ -10,24 +10,33 @@
     <title>Forecast app</title>
 </head>
 <body>
+    <div class="weather-app"></div>
     <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="search" />  
+        <form class="search-form">
+          <input type="search" placeholder="Enter a city..."  required class="search-form-input" />
+          <input type="submit" value="search" class="search-form-button" />  
         </form>
+        <main> 
     </header>
-    <div class="weather-app">
-    <h1>New York</h1>
-    <p>
-        Tuesday 7:36, Windy
-        <br>
-        Humidity 66% , Wind: 3.13km/h
-    </p>
-    <div>
-     🌤 12°c
+    <div class="weather-app-data">
+        <div>
+    <h1 class="weather-app-city">New York</h1>
+    <p class="weather-app-details">
+         Tuesday 7:36, Windy
+        <br />
+        Humidity <strong>66%</strong>, Wind: <strong>3.13km/h </strong> 
+         </p> 
+         </div>
+        <div class="weather-app-temperature-container">
+        <div class="weather-app-icon">🌤</div>
+        <div class="weather-app-temperature">12</div>
+        <div class="weather-app-unit">°C</div>
      </div>
+    </div>
+    </main>
+
     <footer> Coded by <a href="https://github.com/veetac21" target="_blank"> Vera Harris </a> and hosted on <a href="https://github.com/veetac21/forecast" target="_blank">Github</a> hosted on <a href="https://main--charming-biscochitos-701860.netlify.app/" target="_blank">netlify</a> 
     </footer> 
-    </div>
+    
 </body>
 </html>
