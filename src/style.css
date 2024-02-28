@@ -46,10 +46,19 @@ a {
     font-weight: bold;
     line-height: 88px;
     margin-left: 10px;
-
-
 }
 
+.weather-app-unit {
+    margin-top: 6px;
+    font-size: 28px;
+}
+
+
+.weather-forecast {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
 
 
 
@@ -93,11 +102,24 @@ a {
     color: white;
 }
 
-.weather-app-unit {
-    margin-top: 6px;
-    font-size: 28px;
+
+
+
+
+
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.6;
 }
 
+.weather-forecast-temperatures-min {
+    opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+    font-size: 13px;
+
+}
 
 footer {
  border-top: 1px solid #f9f7fe;
