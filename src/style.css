@@ -103,10 +103,6 @@ a {
 }
 
 
-
-
-
-
 .weather-forecast-date {
     font-size: 16px;
     opacity: 0.6;
@@ -119,6 +115,9 @@ a {
 .weather-forecast-temperatures {
     font-size: 13px;
 
+}
+.weather-forecast-day {
+  display: inline-block;
 }
 
 footer {
