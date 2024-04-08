@@ -111,6 +111,12 @@ a {
 .weather-forecast-temperatures-min {
     opacity: 0.5;
 }
+.weather-forecast-icon {
+    width: 66px;
+    display: block;
+    margin: 0 auto;
+    
+}
 
 .weather-forecast-temperatures {
     font-size: 13px;
